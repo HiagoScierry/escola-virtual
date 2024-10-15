@@ -17,7 +17,7 @@ Ja o frontend utiliza nextjs na ultima versão com tailwindcss como framework cs
 Considero que tem o NodeJS instalado na sua maquina.
 
 - Inicialmente rodaremos o backend
-- Abra um terminal separado e acesse a pasta `escola-virtual`.
+- Abra um terminal separado e acesse a pasta `backend`.
 - Rode o comando `npm i` para fazer as instalações das dependências do projeto.
 - Rode o comando `npm run prisma:migrate` para gerar seu banco de dados em formato de arquivo.
 - Rode o comando `npm run prisma:seed` para gerar dados prefixados no seu banco de dados.
@@ -26,7 +26,7 @@ Considero que tem o NodeJS instalado na sua maquina.
 
 
 - Inicialmente rodaremos o frontend
-- Abra um terminal separado e acesse a pasta `escola-virtual-front`.
+- Abra um terminal separado e acesse a pasta `frontend`.
 - Rode o comando `npm i` para fazer as instalações das dependências do projeto.
 - Rode o comando `npm run dev` para rodar a aplicação na porta 8000 no modo de desenvolvimento.
 
