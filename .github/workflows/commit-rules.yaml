@@ -9,11 +9,11 @@ jobs:
   Node-Setup:
     runs-on: ubuntu-latest
     steps:
-      - run: cd backend
       - uses: actions/checkout@v2
       - uses: actions/setup-node@v4
         with:
           node-version: '20.x'
+      - run: cd backend
       - run: npm install --force
       - run: npm run eslint
       - run: npm run prisma
